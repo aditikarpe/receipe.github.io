@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav{
+height: 250px;
+border: 1px solid black;
+text-align: center;
+justify-content: center;
+border-bottom: 2px solid black;
+background-color: #8d6271;
+}
+#logo{
+    margin-right: 55px;
+    margin-top: -28px;
+}
+ul{
+    display: flex;
+    margin-top: 35px;
+}
+#li1{
+list-style: none;
+margin-right: 46px;
+font-weight: bold;
+font-size: 18px;
+}
+#search{
+margin-left: 22px;
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+li>select{
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+li:hover{
+    border-top: 2.3px solid #8d6271;
+    margin-top: -2px;
+}
+#btn{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+    padding: 3px;
+    height: 38px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+#btn:hover{
+    background-color:#8d6271 ;
+    color: #fff;
+}
+i{
+    height: 50px;
+}
+li>#allrecipes{
+font-weight: bolder;
+}
+/* navigatin css code end  */
+
+#ul2{
+    display: flex;
+    border-top: 1px solid #d8d8d8;
+    justify-content: center;
+    height: 150px;
+    padding: 18px;
+}
+#li2{
+    list-style: none;
+    border-radius: 2px;
+margin-right: 20px;
+background-color:#f0f0f0;
+text-align: center;
+padding: 8px;
+font-size: 15px;
+font-weight: bold;
+height: 33px;
+}
+#li2:hover{
+    background-color: #8d6271;
+
+}
+
+/* grid css code  */
+
+h2{
+    text-align: center;
+    margin-top: -60px;
+    font-weight: 400;
+    font-size: 43px;
+}
+.design{
+    border-top: 5px dotted #8d6271;
+    width: 330px;
+    height: 50px;
+    margin-top: -70px;
+}
+.design1{
+    border-top: 5px dotted #8d6271;
+    width: 330px;
+    height: 50px;
+    margin: -47px 0 0 760px;
+}
+h2>b{
+    font-weight: bolder;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    gap: 15px;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+}
+
+.grid-box>p:hover{
+   border-bottom: 2px solid black;
+   margin-bottom: 2px;
+   justify-content: center;
+ }
+.grid-box>img{
+border-radius: 50%;
+width: 150px;
+height: 150px;
+}
+
+/* section 1 code starts here */
+
+.box1{
+    margin: 30px 0 0 20px;
+}
+.box1>img{
+    position: relative;
+    border-radius: 10px;
+}
+.textbox{
+    position: absolute;
+    border-radius: 10px;
+    width: 390px;
+    height: 180px;
+    padding: 10px;
+    background-color: rgb(246, 242, 223);
+    top: 732px;
+}
+#btn1{
+background-color: #8d6271;
+color: rgb(245, 238, 207) ;
+padding: 15px;
+border-radius: 7px;
+width: 180px;
+font-weight: bolder;
+font-size: 18px;
+border: none;
+}
+
+#btn1:hover{
+background-color: black;
+color: #fff;
+}
+.grid2{
+    width: 530px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap:10px 0;
+    margin: -335px 0 0 600px;
+   
+}
+.box>img{
+border-radius: 10px;
+}
+.box{
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 95px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px gray ;
+}
+#box2{
+margin-top: -123px;
+}
+#box3{
+    margin-top: -150px;
+    }
+
+.box>img{
+    float: left;
+    left: 100px;
+}
+
+/* Subscribe now / box2 css code starts here  */
+.box4{
+    height: 300px;
+    position: relative;
+    background-color: #d8d8d8;
+    margin: -120px 0 0 0;
+}
+.box4>img{
+    margin:45px 0 0 185px ;
+}
+.textbox2{
+    position: absolute;
+    height: 250px;
+    width: 600px;
+    padding: 15px;
+    margin: -180px 0 0 390px; 
+}
+#btn2{
+    width: 466px;
+    background-color: #8d6271;
+    border: none;
+    height: 35px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;border-radius: 5px; margin-top: 10px;
+}
+#btn2:hover{
+    background-color: black;
+    color: #fff;
+}
+
+/* grid3 css code starts here  */
+.grid3{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto;
+gap:0px 22px;
+width: 800px;
+height: 400px;
+margin-left: 10px;
+border-bottom: 1px solid #d8d8d8;
+}
+.grid-container{
+    background-color: white;
+    display: flex;
+    width: 340px;
+    height: 165px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1.5px gray ;
+    position: relative;
+}
+.grid-container>img{
+    float: left;
+    left: 100px;
+    border-radius: 10px;
+}
+.grid-container:hover{
+    text-decoration: underline;
+}
+
+/* footer css code  */
+.grid4{
+    width: 250px;
+    display: grid;
+    grid-template-columns: auto auto;
+  gap: 10px;
+}
+.end1{
+    width: 200px;
+    height: 120px;
+    margin: -90px 0 0 380px;
+}
+.end1>p:hover{
+    text-decoration: underline;
+}
+.end{
+    width: 200px;
+    height: 120px;
+    margin: -90px 0 0 200px;
+}
+.end>p:hover{
+    text-decoration: underline;
+}
